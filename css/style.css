@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgb(0, 255, 213);
+    background: linear-gradient(to right, red, blue);
 }
 
 h1 {
@@ -19,15 +19,19 @@ input[type="button"] {
     font-size: 25px;
     margin: 2px;
     cursor: grab;
+    background: black;
+    color: white;
 }
 
 .pantalla {
     width: 217px;
     margin: 5px;
     font-size: 25px;
+    background: transparent;
+    color: white;
 }
 
 .calculadora {
-    margin: 0 auto;
+    margin: 15% auto;
     width: 250px;
 }
